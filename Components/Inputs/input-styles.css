@@ -1,0 +1,41 @@
+.form-group{
+    margin: 1rem;
+  }
+  label{
+    display: inline-block;
+    margin-bottom: .5rem;
+  }
+  .form-control{
+    display: block;
+    width: 75%;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(16, 18, 19, 0.15);
+  }
+  .btn{    
+    display: inline-block;
+    font-weight: 450;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+  }
+  .btn-primary{
+    color: #fff;
+    background-color: #02d898;
+    border-color: #5fc9a0;
+  }

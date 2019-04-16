@@ -1,0 +1,19 @@
+{
+  "name": "brbn-ui",
+  "version": "1.0.0",
+  "description": "UI component framework for the modern web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobodyknowswhereheis/brbn-ui.git"
+  },
+  "author": "Jesse Adams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nobodyknowswhereheis/brbn-ui/issues"
+  },
+  "homepage": "https://github.com/nobodyknowswhereheis/brbn-ui#readme"
+}

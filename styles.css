@@ -1,0 +1,39 @@
+html {
+    --primary-component-outline: #0cba7d;
+    --ui-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--ui-font-family);
+  }
+  .grid-wrapper{
+    display: grid;
+    grid-template-rows: 1fr 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left right";
+    text-align: left;
+   }
+  .grid-col-1 {
+    grid-area: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 1rem;
+  }.grid-col-2 {
+    grid-area: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 1rem;
+    
+  }
+  body{
+    font-family: "Avenir next","Avenir",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #373a3c;
+    background-color: #fff;
+  }
+  .splash-bang{
+    text-align: left;
+    
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-color: #eceeef;
+    border-radius: .3rem;
+  }
